@@ -93,22 +93,6 @@ a {
   height: 12%;
 }
 
-.logoContainer {
-  width: 25%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.logoContainer img {
-  width: 100px;
-  object-fit: cover;
-}
-
-.logoContainer h2 {
-  color: white;
-}
-
 .navRow ul {
   display: flex;
   flex-direction: row;
