@@ -332,3 +332,72 @@ textarea {
   align-items: center;
   text-align: center;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .text-line-height {
+    line-height: 1.25;
+  }
+
+  .boxConFlex {
+    justify-content: space-between;
+  }
+
+  .card {
+    height: 90%;
+  }
+
+  textarea {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .containerNav {
+    flex-direction: column;
+    height: initial;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flexConferencia {
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .boxConfSize {
+    width: auto;
+    height: auto;
+  }
+
+  .card {
+    width: 70%;
+    height: 70%;
+  }
+
+  .containerFecha {
+    flex-direction: column;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  textarea {
+    font-size: 0.5rem;
+  }
+
+  .formButton {
+    display: flex;
+    justify-content: center;
+  }
+
+  .containerFooter {
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+  }
+
+  .footerItem {
+    padding-bottom: 10px;
+  }
+}
