@@ -11,7 +11,6 @@ body {
 }
 
 header {
-  width: 100vw;
   height: 100vh;
 }
 
@@ -97,6 +96,10 @@ a {
   text-align: center;
 }
 
+.text-line-height {
+  line-height: 1.5;
+}
+
 .containerNav {
   display: flex;
   justify-content: space-between;
@@ -160,19 +163,17 @@ a {
   margin-bottom: 2rem;
 }
 
-.btnOrador {
-  text-decoration: none;
-  padding: 0.8rem;
+.btnOutlineWhite {
   border: 1px solid #fff;
   border-radius: 4px;
+  padding: 0.8rem;
   margin-right: 0.5rem;
 }
 
 .btnTicket {
-  text-decoration: none;
-  padding: 0.8rem;
   border-radius: 4px;
   border: 1px solid rgb(41, 167, 68);
+  padding: 0.8rem;
 }
 
 .ContainerOradores {
@@ -227,4 +228,30 @@ a {
 
 .textCard {
   padding-top: 20px;
+}
+
+.containerFecha {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: none;
+}
+
+.textFecha {
+  padding: 25px;
+}
+
+.tittleFecha {
+  padding-bottom: 10px;
+}
+
+.fitContent {
+  font-size: large;
+  margin-top: 20px;
+  width: fit-content;
 }
